@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import me.lehoo.android.autoscrollviewpager.AutoScrollViewPagerActivity;
 import me.lehoo.android.pulltorefreshlistview.PullToRefreshListViewActivity;
 
 
@@ -27,6 +28,15 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
                 Intent goToListViewIntent = new Intent(MainActivity.this, PullToRefreshListViewActivity.class);
                 startActivity(goToListViewIntent);
+            }
+        });
+
+        Button goToAutoScrollViewPagerBtn = (Button) findViewById(R.id.auto_scroll_view_pager_btn);
+        goToAutoScrollViewPagerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToViewPagerIntent = new Intent(MainActivity.this, AutoScrollViewPagerActivity.class);
+                startActivity(goToViewPagerIntent);
             }
         });
     }

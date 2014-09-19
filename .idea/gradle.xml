@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AutoScrollViewPager" />
             <option value="$PROJECT_DIR$/PullToRefreshListView" />
             <option value="$PROJECT_DIR$/app" />
           </set>
