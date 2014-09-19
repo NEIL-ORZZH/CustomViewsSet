@@ -1,9 +1,14 @@
 package me.lehoo.android.customviewsset;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+
+import me.lehoo.android.pulltorefreshlistview.PullToRefreshListViewActivity;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,6 +17,18 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initViews();
+    }
+
+    private void initViews(){
+        Button goToPullToRefreshListViewBtn = (Button) findViewById(R.id.pull_to_refresh_list_view_btn);
+        goToPullToRefreshListViewBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToListViewIntent = new Intent(MainActivity.this, PullToRefreshListViewActivity.class);
+                startActivity(goToListViewIntent);
+            }
+        });
     }
 
 

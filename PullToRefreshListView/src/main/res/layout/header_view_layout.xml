@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/header_layout_background">
+
+    <RelativeLayout
+            android:id="@+id/header_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+        
+        <LinearLayout
+                android:id="@+id/header_text_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                        android:id="@+id/header_prompt_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/header_text_color"
+                        android:textSize="12sp"
+                        android:text="@string/header_prompt_normal"/>
+            
+                <LinearLayout
+                        android:id="@+id/header_time_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    <TextView
+                            android:id="@+id/header_time_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/header_text_color"
+                            android:textSize="12sp"
+                            android:text="@string/header_last_time"/>
+                    <TextView
+                            android:id="@+id/header_time_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/header_text_color"
+                            android:textSize="12sp"
+                            android:text="2014-8-27 12:02:03"/>
+                </LinearLayout>
+
+        </LinearLayout>
+        
+        <ImageView
+                android:id="@+id/header_arrow_image"
+                android:layout_width="30dp" 
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@+id/header_text_layout"
+                android:src="@drawable/ic_common_droparrow"
+                android:scaleType="center"/>
+        
+        <!--<ProgressBar-->
+                <!--android:id="@+id/header_progressbar"-->
+                <!--android:layout_width="30dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toLeftOf="@+id/header_text_layout"-->
+                <!--style="@android:style/Widget.ProgressBar.Small"-->
+                <!--android:visibility="gone"/>-->
+
+        <ImageView
+                android:id="@+id/header_loading_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@+id/header_text_layout"
+                android:src="@drawable/ic_loading"
+                android:scaleType="center"
+                android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>

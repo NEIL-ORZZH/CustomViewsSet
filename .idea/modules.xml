@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomViewsSet.iml" filepath="$PROJECT_DIR$/CustomViewsSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefreshListView/PullToRefreshListView.iml" filepath="$PROJECT_DIR$/PullToRefreshListView/PullToRefreshListView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PullToRefreshListView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="header_prompt_normal">下拉刷新</string>
+    <string name="header_prompt_ready">释放立即刷新</string>
+    <string name="header_prompt_loading">正在加载...</string>
+    <string name="header_last_time">上次更新：</string>
+    <string name="footer_prompt_loading">正在加载...</string>
+    <string name="footer_prompt_ready">释放载入更多</string>
+
+
+</resources>
