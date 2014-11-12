@@ -3,7 +3,29 @@
 ##Views列表
 ####PullToRefreshListView
 经过一些修改之后的一个下拉刷新控件，基本远离是在原生的ListView上添加header和footer，并在ListView中对手势等进行处理。
-#####AutoScrollViewPager
+
+[1]
+![PullToRefreshListView-1](http://lehooos.qiniudn.com/customviews/11S41112-151810.jpg "PullToRefreshListView-1")
+
+[2]
+![PullToRefreshListView-2](http://lehooos.qiniudn.com/customviews/11S41112-151729.jpg "PullToRefreshListView-2")
+
+[3]
+![PullToRefreshListView-3](http://lehooos.qiniudn.com/customviews/11S41112-151903.jpg "PullToRefreshListView-3")
+
+####AutoScrollViewPager
 基于一个开源的AutoScrollViewPager实现一个可以自动滚动的ViewPager。
-##使用
-clone或者打包下载项目后，使用Android Studio导入项目即可。
+
+![AutoScrollViewPager](http://lehooos.qiniudn.com/customviews/11S41112-151950.jpg "AutoScrollViewPager")
+
+####PopupBubble
+继承了PopupWindow实现一个弹出层操作。
+
+[1]
+![PopupBubble-1](http://lehooos.qiniudn.com/customviews/11S41112-152008.jpg "PopupBubble-1")
+
+[2]
+![PopupBubble-2](http://lehooos.qiniudn.com/customviews/11S41112-152019.jpg "PopupBubble-2")
+
+##Usage
+clone或者打包下载项目后，使用Android Studio导入项目即可。[Just clone this project, import to Android Studio.Enjoy!]
