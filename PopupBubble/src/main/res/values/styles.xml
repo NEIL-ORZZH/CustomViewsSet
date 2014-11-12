@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- bubble pop animation -->
+    <style name="popAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/bubble_show_anim</item>
+        <item name="android:windowExitAnimation">@anim/bubble_dismiss_anim</item>
+    </style>
+</resources>

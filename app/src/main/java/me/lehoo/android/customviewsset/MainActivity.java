@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 import me.lehoo.android.autoscrollviewpager.AutoScrollViewPagerActivity;
+import me.lehoo.android.popupbubble.PopupBubbleActivity;
 import me.lehoo.android.pulltorefreshlistview.PullToRefreshListViewActivity;
 
 
@@ -37,6 +38,15 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
                 Intent goToViewPagerIntent = new Intent(MainActivity.this, AutoScrollViewPagerActivity.class);
                 startActivity(goToViewPagerIntent);
+            }
+        });
+
+        Button goToPopupBubbleBtn = (Button) findViewById(R.id.popup_bubble_btn);
+        goToPopupBubbleBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToPopupBubble = new Intent(MainActivity.this, PopupBubbleActivity.class);
+                startActivity(goToPopupBubble);
             }
         });
     }

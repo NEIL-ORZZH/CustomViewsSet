@@ -13,7 +13,7 @@
         android:id="@+id/pull_to_refresh_list_view_btn"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@android:color/black"
+        android:background="@drawable/app_button_background"
         android:text="@string/pull_to_refresh_list_view"
         android:textColor="#FFFFFFFF"
         android:textSize="20sp"/>
@@ -23,8 +23,18 @@
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@android:color/black"
+        android:background="@drawable/app_button_background"
         android:text="@string/auto_scroll_view_pager"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/popup_bubble_btn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/app_button_background"
+        android:text="@string/popup_bubble"
         android:textColor="#FFFFFFFF"
         android:textSize="20sp"/>
 </LinearLayout>
