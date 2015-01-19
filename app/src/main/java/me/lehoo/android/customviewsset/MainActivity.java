@@ -7,8 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-
 import me.lehoo.android.autoscrollviewpager.AutoScrollViewPagerActivity;
+import me.lehoo.android.bottompopupdialog.BottomPopupDialogActivity;
 import me.lehoo.android.popupbubble.PopupBubbleActivity;
 import me.lehoo.android.pulltorefreshlistview.PullToRefreshListViewActivity;
 
@@ -47,6 +47,15 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
                 Intent goToPopupBubble = new Intent(MainActivity.this, PopupBubbleActivity.class);
                 startActivity(goToPopupBubble);
+            }
+        });
+
+        Button goToBottomPopupDialogBtn = (Button) findViewById(R.id.bottom_popup_dialog_btn);
+        goToBottomPopupDialogBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToBottomPopupDialog = new Intent(MainActivity.this, BottomPopupDialogActivity.class);
+                startActivity(goToBottomPopupDialog);
             }
         });
     }

@@ -26,6 +26,11 @@
 
 [2]
 ![PopupBubble-2](http://lehooos.qiniudn.com/customviews/11S41112-152019.jpg "PopupBubble-2")
+####BottomPopupDialog
+获取了系统的底部操作栏的高度来确定Dialog展示的位置。
+
+[1]
+![BottomPopupDialog](http://lehooos.qiniudn.com/customviews/S50119-203509.jpg "BottomPopupDialog")
 
 ##Usage
-clone或者打包下载项目后，使用Android Studio导入项目即可。[Just clone this project, import to Android Studio.Enjoy!]
+clone或者打包下载项目后，使用Android Studio(version 1.0+)导入项目即可。[Just clone this project, import to Android Studio.Enjoy!]

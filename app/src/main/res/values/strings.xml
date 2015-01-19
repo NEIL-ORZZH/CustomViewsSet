@@ -9,5 +9,6 @@
     <string name="pull_to_refresh_list_view">PullToRefreshListView</string>
     <string name="auto_scroll_view_pager">AutoScrollViewPager</string>
     <string name="popup_bubble">PopupBubble</string>
+    <string name="bottom_popup_dialog">BottomPopupDialog</string>
 
 </resources>

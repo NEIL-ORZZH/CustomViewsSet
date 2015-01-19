@@ -1,1 +1,1 @@
-include ':app', ':PullToRefreshListView', ':AutoScrollViewPager', ':PopupBubble'
+include ':app', ':PullToRefreshListView', ':AutoScrollViewPager', ':PopupBubble', ':SlideLeftableView', 'BottomPopupDialog'
