@@ -47,4 +47,14 @@
         android:text="@string/bottom_popup_dialog"
         android:textColor="#FFFFFFFF"
         android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/evernote_style_menu_btn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/app_button_background"
+        android:text="@string/evernote_style_menu"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"/>
 </LinearLayout>

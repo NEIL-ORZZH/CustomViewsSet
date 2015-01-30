@@ -10,5 +10,6 @@
     <string name="auto_scroll_view_pager">AutoScrollViewPager</string>
     <string name="popup_bubble">PopupBubble</string>
     <string name="bottom_popup_dialog">BottomPopupDialog</string>
+    <string name="evernote_style_menu">EvernoteStyleMenu</string>
 
 </resources>

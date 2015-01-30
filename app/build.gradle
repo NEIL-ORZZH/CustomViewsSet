@@ -27,4 +27,5 @@ dependencies {
     compile project(':PopupBubble')
     compile project(':SlideLeftableView')
     compile project(':BottomPopupDialog')
+    compile project(':EvernoteStyleMenu')
 }

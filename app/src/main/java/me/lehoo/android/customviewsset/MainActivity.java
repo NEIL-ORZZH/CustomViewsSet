@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import me.lehoo.android.autoscrollviewpager.AutoScrollViewPagerActivity;
 import me.lehoo.android.bottompopupdialog.BottomPopupDialogActivity;
+import me.lehoo.android.evernotestylemenu.EvernoteStyleMenuActivity;
 import me.lehoo.android.popupbubble.PopupBubbleActivity;
 import me.lehoo.android.pulltorefreshlistview.PullToRefreshListViewActivity;
 
@@ -56,6 +57,15 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
                 Intent goToBottomPopupDialog = new Intent(MainActivity.this, BottomPopupDialogActivity.class);
                 startActivity(goToBottomPopupDialog);
+            }
+        });
+
+        Button goToEvernoteStyleMenuBtn = (Button) findViewById(R.id.evernote_style_menu_btn);
+        goToEvernoteStyleMenuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToEvernoteStyleMenu = new Intent(MainActivity.this, EvernoteStyleMenuActivity.class);
+                startActivity(goToEvernoteStyleMenu);
             }
         });
     }
